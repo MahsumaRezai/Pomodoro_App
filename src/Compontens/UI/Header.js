@@ -12,4 +12,4 @@ const Header = (porps) => {
     )
 
 }
-export default Header
+export default Header;
