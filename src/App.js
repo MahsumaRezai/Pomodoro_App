@@ -1,7 +1,14 @@
+import Header from "./Compontens/UI/Header";
 
 const App = () => {
   return (
     <div>
+      <Header />
+
+
+
+
+
     </div>
   )
 
