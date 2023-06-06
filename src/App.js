@@ -1,11 +1,12 @@
-import Cart from "./Compontens/UI/Cart";
 import Header from "./Compontens/UI/Header";
+import Addtime from "./Compontens/Card/Addtime";
+
 
 const App = () => {
   return (
     <div>
       <Header />
-      <Cart/>
+      <Addtime />
     </div>
   )
 
