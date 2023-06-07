@@ -4,6 +4,7 @@ import classes from './Addtime.module.css'
 import ButtonLogn from './ButtonLogn';
 import ButtonPomdor from './ButtonPomdor';
 import ButtonShort from './ButtonShort';
+import Timer from './CountTime/Timer';
 const Addtime = (props) => {
     return (
 
@@ -15,10 +16,10 @@ const Addtime = (props) => {
                     <ButtonLogn>Long Break</ButtonLogn>
                 </div>
                 <div>
-                    <h1>25:00</h1>
+                    <h1 className={classes.time}>25:00</h1>
                 </div>
                 <div>
-                    <button>START</button>
+                    <Timer>START</Timer>
                 </div>
 
 
