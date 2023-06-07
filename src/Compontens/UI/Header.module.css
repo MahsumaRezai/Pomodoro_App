@@ -39,26 +39,34 @@
 
 @media screen and (max-width:1280px) {
     .head {
-        gap: 250px;
+        gap: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
     }
-
 }
+
 @media screen and (max-width:1024px) {
     .head {
-        gap: 0px;
+        gap: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
 }
+
 @media screen and (max-width:950px) {
     .head {
-        gap: 100px;
+        gap: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
     }
 
 }
-
-
-
-
 .title {
     color: white;
     font-size: 22px;
