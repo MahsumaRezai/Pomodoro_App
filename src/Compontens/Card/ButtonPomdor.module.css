@@ -1,0 +1,12 @@
+.btn {
+    width: 80px;
+    height: 40px;
+    border: 1px solid rgb(211, 84, 84);
+    background-color: rgb(221, 84, 84);
+    transition: 0.5s ease-in-out 0s;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    font-family: sans-serif;
+
+}

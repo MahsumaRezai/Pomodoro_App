@@ -1,13 +1,14 @@
 
 import Card from '../UI/Card';
 import classes from './Addtime.module.css'
+import ButtonPomdor from './ButtonPomdor';
 const Addtime = (props) => {
     return (
 
         <Card >
             <div className={classes.content}>
                 <div>
-                    <button>Pomodoro</button>
+                    <ButtonPomdor>Pomodoro</ButtonPomdor>
                     <button>Short Break</button>
                     <button>Long Break</button>
                 </div>
