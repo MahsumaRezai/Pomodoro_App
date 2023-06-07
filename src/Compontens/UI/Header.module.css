@@ -5,7 +5,25 @@
     width: 40%;
     border-bottom: 1px solid saddlebrown;
     margin-bottom: 50px;
+
 }
+
+@media screen and(max-width:1280px) {
+    .content {
+        width: 30%;
+        margin: auto;
+    }
+
+}
+
+@media screen and(max-width:1024px) {
+    .content {
+        width: 20%;
+        margin: auto;
+    }
+
+}
+
 
 .head {
     display: flex;
@@ -18,6 +36,28 @@
     padding-bottom: 10px;
 
 }
+
+@media screen and (max-width:1280px) {
+    .head {
+        gap: 250px;
+    }
+
+}
+@media screen and (max-width:1024px) {
+    .head {
+        gap: 0px;
+    }
+
+}
+@media screen and (max-width:950px) {
+    .head {
+        gap: 100px;
+    }
+
+}
+
+
+
 
 .title {
     color: white;

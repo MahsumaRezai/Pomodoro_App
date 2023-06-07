@@ -5,6 +5,59 @@
     font-size: 15px;
     color: white;
     font-family: sans-serif;
-    width: 30%;
     margin:auto;
+    width: 30%;
+}
+@media screen and (max-width:950px) {
+    .card{
+        width: 40%;
+    }
+    
+}
+@media screen and (max-width:850px) {
+    .card{
+        width: 50%;
+    }
+    
+}
+@media screen and (max-width:650px) {
+    .card{
+        width: 60%;
+    } 
+}
+@media screen and (max-width:550px) {
+    .card{
+        width: 70%;
+    }
+    
+}
+@media screen and (max-width:450px) {
+    .card{
+        width: 80%;
+    }
+    
+}
+@media screen and (max-width:400px) {
+    .card{
+        width: 80%;
+    }
+    
+}
+@media screen and (max-width:350px) {
+    .card{
+        width: 90%;
+    }
+    
+}
+@media screen and (max-width:300px) {
+    .card{
+        width: 95%;
+    }
+    
+}
+@media screen and (max-width:280px) {
+    .card{
+        width: 100%;
+    }
+    
 }

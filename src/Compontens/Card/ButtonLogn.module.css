@@ -1,7 +1,7 @@
 .btn {
-    width: 100px;
+    font: inherit;
     height: 30px;
-    border: 1px solid rgb(211, 84, 84);
+    border: none;
     background-color: rgb(221, 84, 84);
     transition: 0.5s ease-in-out 0s;
     border-radius: 5px;
