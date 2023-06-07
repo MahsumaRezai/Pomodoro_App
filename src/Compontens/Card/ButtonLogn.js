@@ -1,7 +1,7 @@
 import { Fragment } from "react";
-import classes from './ButtonShort.module.css'
+import classes from './ButtonLogn.module.css'
 
-const ButtonShort = (porps) => {
+const ButtonLogn = (porps) => {
     return (
         <Fragment>
             <div>
@@ -13,4 +13,4 @@ const ButtonShort = (porps) => {
 
     )
 }
-export default ButtonShort;
+export default ButtonLogn;
