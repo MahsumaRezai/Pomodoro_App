@@ -1,0 +1,30 @@
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+  
+  .input  {
+    font: inherit;
+    display: block;
+    width: 20%;
+    padding: 0.15rem;
+    margin-bottom: 0.5rem;
+    background-color: rgb(184, 73,73);
+    border:  1px white dashed ;
+    height: 50px;
+    box-shadow: 2px 2px 2px 2px rgb(221, 141, 141) ;
+    color: white;
+    padding: 20px;
+
+  }
+   .title {
+    color: white;
+    font-size: 20px;
+   }
+
+  
