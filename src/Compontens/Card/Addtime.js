@@ -6,10 +6,6 @@ import ButtonPomdor from './ButtonPomdor';
 import ButtonShort from './ButtonShort';
 const Addtime = (props) => {
    
-
-
-
-
     return (
 
         <Card >
@@ -20,10 +16,12 @@ const Addtime = (props) => {
                     <ButtonLogn>Long Break</ButtonLogn>
                 </div>
                 <div>
-                    <div className={classes.time} id='clock'>25</div>
+                    <div className={classes.time} id='title'>0</div>
                 </div>
-                <div>
-                    <button className={classes.btn}>START</button>
+                <div className={classes.btns}>
+                    <button className={classes.btn} >START</button>
+                    <button className={classes.btn} >POUSE</button>
+
                 </div>
 
 
