@@ -8,6 +8,7 @@
   align-items: center;
   gap: 20px;
 }
+
 .input {
   font: inherit;
   border: none;
@@ -18,4 +19,53 @@
   font-family: sans-serif;
   width: 360px;
   height: 40px;
+}
+
+@media screen and (max-width:1280px) {
+  .input {
+    width: 300px;
+  }
+
+}
+@media screen and (max-width:1024px) {
+  .input {
+    width: 250px;
+  }
+
+}
+@media screen and (max-width:950px) {
+  .input {
+    width: 250px;
+  }
+
+}
+@media screen and (max-width:750px) {
+  .input {
+    width: 200px;
+  }
+
+}
+@media screen and (max-width:550px) {
+  .input {
+    width: 200px;
+  }
+
+}
+@media screen and (max-width:450px) {
+  .input {
+    width: 200px;
+  }
+
+}
+@media screen and (max-width:300px) {
+  .input {
+    width: 150px;
+  }
+
+}
+@media screen and (max-width:280px) {
+  .input {
+    width: 100px;
+  }
+
 }
