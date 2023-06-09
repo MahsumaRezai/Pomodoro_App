@@ -4,13 +4,13 @@ import Button from '../Button';
 const Form = (props) => {
     const [entervalue, setentervalue] = useState('');
     const goalInputChangeHandler = (event) => {
-        setentervalue(event.target.value)
-
+        setentervalue(event.target.value);
     }
 
     const formSubmitHandler = (event) => {
         event.preventDefault();
-        props.onAddGoal(entervalue)
+        props.onAddGoal(entervalue);
+
     };
     return (
         <form onSubmit={formSubmitHandler} className={classes.form}>

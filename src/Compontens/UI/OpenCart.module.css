@@ -1,0 +1,17 @@
+.cart {
+    background-color: white;
+    width: 30%;
+    color: white;
+    transition: background-color 0.5s ease-in-out 0s;
+    padding-bottom: 12px;
+    box-sizing: border-box;
+    padding-top: env(safe-area-inset-top);
+    margin: auto;
+    border: 1px solid saddlebrown;
+    box-shadow: 5px 5px 5px 5px rgb(221, 141, 141);
+    color:  rgb(186, 73, 73);
+}
+.form {
+    display: flex;
+    flex-direction:column;
+}
