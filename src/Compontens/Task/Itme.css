@@ -2,8 +2,9 @@
     margin: 1rem 0;
     background:  rgb(175, 218, 221);
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
-    color: white;
+    color:  rgb(4, 35, 37);
     padding: 1rem 2rem;
     cursor: pointer;
+    font-size: 20px;
   }
   

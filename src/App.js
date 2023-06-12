@@ -24,7 +24,7 @@ const App = () => {
   };
 
   let content = (
-    <p style={{ textAlign: 'center', color: "white" }}>What is your Taks?</p>
+    <p style={{ textAlign: 'center', color: " rgb(4, 35, 37)", fontSize:"20px" }}>What is your Taks?</p>
   );
 
   if (courseGoals.length > 0) {

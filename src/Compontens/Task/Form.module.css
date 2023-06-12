@@ -16,11 +16,12 @@
     background-color: rgb(175, 218, 221);
     transition: 0.5s ease-in-out 0s;
     font-size: 15px;
-    color: white;
+    color: rgb(4, 35, 37);
     font-family: sans-serif;
     width: 360px;
     height: 40px;
     border: none;
+    padding-left: 10px;
   }
   input:focus {
     border: none;
