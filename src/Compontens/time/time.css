@@ -8,8 +8,6 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-    display: flex;
-    margin-top: -150px;
 }
 
 .card {
@@ -17,11 +15,17 @@
 }
 
 .pomodoro {
-	width: 15.5em;
+	width: 20.5em;
 	height: 12.5em;
 	font-size: 1.5em;
 	background-color: #666;
     color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;position: relative;
+    margin-bottom: 20px;
 }
 
 .pomodoro__timer {
@@ -38,11 +42,11 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: auto;
 	right: 0;
     font-weight: bold;
     box-shadow: 5px 5px 5px 5px rgb(216, 150, 150);;
 	transform-origin: right center;
-    
 	&.rotateF {
 		transition: .25s linear;
 		transform: rotateY(-90deg);

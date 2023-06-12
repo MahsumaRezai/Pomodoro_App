@@ -1,0 +1,72 @@
+.form {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+  }
+  
+  .input {
+    font: inherit;
+    border: none;
+    background-color: rgb(221, 141, 141);
+    transition: 0.5s ease-in-out 0s;
+    font-size: 15px;
+    color: white;
+    font-family: sans-serif;
+    width: 360px;
+    height: 40px;
+  }
+  
+  @media screen and (max-width:1280px) {
+    .input {
+      width: 300px;
+    }
+  
+  }
+  @media screen and (max-width:1024px) {
+    .input {
+      width: 250px;
+    }
+  
+  }
+  @media screen and (max-width:950px) {
+    .input {
+      width: 250px;
+    }
+  
+  }
+  @media screen and (max-width:750px) {
+    .input {
+      width: 200px;
+    }
+  
+  }
+  @media screen and (max-width:550px) {
+    .input {
+      width: 200px;
+    }
+  
+  }
+  @media screen and (max-width:450px) {
+    .input {
+      width: 200px;
+    }
+  
+  }
+  @media screen and (max-width:300px) {
+    .input {
+      width: 150px;
+    }
+  
+  }
+  @media screen and (max-width:280px) {
+    .input {
+      width: 100px;
+    }
+  
+  }
