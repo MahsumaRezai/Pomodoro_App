@@ -1,17 +1,10 @@
-import classes from './Header.module.css';
-import Button from './Button';
-const Header = (porps) => {
-
-
+import classes from './Header.module.css'
+const Header = (porps => {
     return (
-        <div className={classes.content}>
-            <div className={classes.head}>
-                <div><h1 className={classes.title}>Pomofocus</h1></div>
-                <Button className={classes.btn} onClick={porps.onShowCart}>Login</Button>
-            </div>
+        <div>
+            <h1 className={classes.title}>Pomodoro Clock</h1>
 
         </div>
     )
-
-}
-export default Header;
+})
+export default Header

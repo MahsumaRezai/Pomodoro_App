@@ -1,0 +1,118 @@
+
+.fa-cog {
+	font-size: 1em;
+}
+
+#root {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    display: flex;
+    margin-top: -150px;
+}
+
+.card {
+	margin: 0;
+}
+
+.pomodoro {
+	width: 15.5em;
+	height: 12.5em;
+	font-size: 1.5em;
+	background-color: #666;
+    color: white;
+}
+
+.pomodoro__timer {
+	width: inherit;
+	height: 12em;
+	font-size: 30px;
+	font-family: 'Share Tech Mono', ;
+	background-color:rgb(186, 73, 73);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+	right: 0;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px 5px rgb(216, 150, 150);;
+	transform-origin: right center;
+    
+	&.rotateF {
+		transition: .25s linear;
+		transform: rotateY(-90deg);
+	}
+	&.rotateB {
+		transform: rotateY(0deg);
+	}
+	&-display {
+		color: cornflowerblue;
+    font-size: 3em;
+    font-weight: 500;
+		text-align: center;
+    line-height: 3.5em;
+    cursor: pointer;
+    flex-basis: 90%;
+	}
+}
+
+.pomodoro__settings-area {
+	width: 12.5em;
+	height: 12em;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: linear-gradient(-45deg, #fff, #000);
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	float: left;
+	transform: rotateY(90deg);
+	transform-origin: left center;
+	&.rotateF {
+		transform: rotateY(0deg);
+		transition: .25s linear;
+		transition-delay: 50ms;
+	}
+	&.rotateB {
+		transform: rotateY(90deg);
+	}
+	&-icon {
+		color: #eee;
+		padding-right: 0.2em;
+    cursor: pointer;
+    align-self: flex-end;
+	}
+}
+	
+	.pomodoro__setting-box {
+		height: 80%;
+		flex-basis: 50%;
+		display: flex;
+    justify-content: center;
+    align-items: center;
+		&_session {
+			background: rgba(237, 50, 20, 0.8);
+			color: white;
+		}
+		&_break {
+			background: rgba(0, 126, 255, 0.81);
+		}
+		
+	}
+	.pomodoro__confirm-sets {
+		height: 20%;
+		width: 100%;
+	  background: #f4f4f4;
+		clear: both;
+    float: left;
+    text-transform: uppercase;
+    border: 0;
+		font-size: 1em;
+		outline: 0;
+		align-self: flex-end;
+	}
