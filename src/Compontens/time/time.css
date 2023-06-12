@@ -16,7 +16,6 @@
 
 .pomodoro {
 	width: 20.5em;
-	height: 12.5em;
 	font-size: 1.5em;
 	background-color: #666;
     color: white;
@@ -26,14 +25,15 @@
     justify-content: center;
     align-items: center;position: relative;
     margin-bottom: 20px;
+    height: 300px;
 }
 
 .pomodoro__timer {
+    height: 300px;
 	width: inherit;
-	height: 12em;
-	font-size: 30px;
+	font-size: 100px;
 	font-family: 'Share Tech Mono', ;
-	background-color:rgb(186, 73, 73);
+	background-color:rgb(56, 133, 138);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -45,7 +45,7 @@
     margin: auto;
 	right: 0;
     font-weight: bold;
-    box-shadow: 5px 5px 5px 5px rgb(216, 150, 150);;
+    box-shadow: 5px 5px 5px 5px rgb(158, 212, 216);;
 	transform-origin: right center;
 	&.rotateF {
 		transition: .25s linear;
@@ -67,7 +67,6 @@
 
 .pomodoro__settings-area {
 	width: 12.5em;
-	height: 12em;
 	font-size: 30px;
 	font-family: 'Montserrat', sans-serif;
 	background-color: linear-gradient(-45deg, #fff, #000);

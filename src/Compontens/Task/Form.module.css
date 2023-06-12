@@ -20,6 +20,10 @@
     font-family: sans-serif;
     width: 360px;
     height: 40px;
+    border: none;
+  }
+  input:focus {
+    border: none;
   }
   
   @media screen and (max-width:1280px) {
