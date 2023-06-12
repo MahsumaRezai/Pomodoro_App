@@ -26,6 +26,7 @@
     align-items: center;position: relative;
     margin-bottom: 20px;
     height: 300px;
+    border-radius: 10px;
 }
 
 .pomodoro__timer {
@@ -47,6 +48,7 @@
     font-weight: bold;
     box-shadow: 5px 5px 5px 5px rgb(158, 212, 216);;
 	transform-origin: right center;
+    border-radius: 10px;
 	&.rotateF {
 		transition: .25s linear;
 		transform: rotateY(-90deg);
