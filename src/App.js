@@ -1,5 +1,5 @@
 import Header from "./Compontens/UI/Header";
-import Pomodoro from "./Compontens/time/time";
+import PomodoroApp from "./Compontens/time/time";
 import { useState } from "react";
 import List from "./Compontens/Task/List";
 import Form from "./Compontens/Task/Form";
@@ -37,7 +37,7 @@ const App = () => {
   return (
     <div>
       <Header />
-      <Pomodoro />
+      <PomodoroApp />
       <section id="goal-form">
         <Form onAddGoal={addGoalHandler} />
       </section>

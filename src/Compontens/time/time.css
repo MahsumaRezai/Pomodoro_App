@@ -46,7 +46,7 @@
     margin: auto;
 	right: 0;
     font-weight: bold;
-    box-shadow: 2px 2px 2px 2px #fff;;
+    box-shadow: 5px 5px 5px 5px  #fff;
 	transform-origin: right center;
     border-radius: 10px;
 	&.rotateF {
