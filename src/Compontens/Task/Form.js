@@ -6,7 +6,6 @@ const Form = (props) => {
     const goalInputChangeHandler = (event) => {
         setentervalue(event.target.value);
     }
-
     const formSubmitHandler = (event) => {
         event.preventDefault();
         props.onAddGoal(entervalue);
