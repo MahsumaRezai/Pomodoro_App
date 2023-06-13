@@ -1,19 +1,5 @@
-#root {
-	width: 500px;
-	height: 330px;
-	margin: auto;
-	background: #EEEBD0;
-	border-radius: 1%;
-	box-shadow: 5px 5px 2px #888888;
-	margin-top: 80px;
-}
 
-body {
-	background: #01ABAA;
-	color: #3A3335;
-	font-family: VT323;
-	font-weight: bold;
-}
+
 
 
 .pomodoro {
@@ -22,6 +8,7 @@ body {
 	background: #FEDC3D;
 	justify-content: center;
 	box-shadow: 1px 1px 1px #888888;
+
 }
 
 

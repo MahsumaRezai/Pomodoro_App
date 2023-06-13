@@ -1,7 +1,8 @@
-import log from '../img/log.PNG'
+import log from '../img/log.PNG';
+import classes from './Header.module.css'
 const Header = (porps => {
     return (
-        <div>
+        <div className={classes.title}>
             <img src={log} alt="" />
         </div>
     )
