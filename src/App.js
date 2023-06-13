@@ -16,7 +16,6 @@ class App extends Component {
     this.breakStarted = false
     this.isPaused = false;
     this.div = false;
-    this.audio = new Audio('https://res.cloudinary.com/lucedesign/video/upload/v1494560703/8bit-laser_z04j15.wav');
   }
 
   stopTimer = timer => {
@@ -117,9 +116,7 @@ class App extends Component {
 
   componentDidUpdate() {
     if (this.state.time < 1) {
-      this.audio.play();
-      var audio = new Audio('https://cdnjs.cloudflare.com/ajax/libs/ion-sound/3.0.7/sounds/branch_break.mp3');
-      audio.play();
+      
       this.stopTimer(this.timer);
       this.setState({ time: this.time });
       if (!this.breakStarted) {
