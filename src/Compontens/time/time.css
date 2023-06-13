@@ -34,7 +34,7 @@
 	width: inherit;
 	font-size: 100px;
 	font-family: 'Share Tech Mono', ;
-	background-color: rgb(56, 133, 138);
+	background-color: #333;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -46,7 +46,7 @@
     margin: auto;
 	right: 0;
     font-weight: bold;
-    box-shadow: 5px 5px 5px 5px rgb(158, 212, 216);;
+    box-shadow: 5px 5px 5px 5px #fff;;
 	transform-origin: right center;
     border-radius: 10px;
 	&.rotateF {

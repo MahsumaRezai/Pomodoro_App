@@ -1,9 +1,9 @@
-import classes from './Header.module.css'
+import classes from './Header.module.css';
+import log from '../img/log.PNG'
 const Header = (porps => {
     return (
         <div>
-            <h1 className={classes.title}>Pomodoro Clock</h1>
-
+            <img src={log} alt="React Image" />
         </div>
     )
 })
