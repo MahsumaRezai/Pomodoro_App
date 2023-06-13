@@ -2,7 +2,6 @@
 import { Component } from "react";
 import { render } from "react-dom";
 import { Materialize } from 'react';
-import { Ref } from "react";
 import './time.css';
 
 class Pomodoro extends Component {

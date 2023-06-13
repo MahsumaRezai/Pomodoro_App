@@ -1,4 +1,3 @@
-import classes from './Header.module.css';
 import log from '../img/log.PNG'
 const Header = (porps => {
     return (
