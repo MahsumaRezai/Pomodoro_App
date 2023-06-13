@@ -154,7 +154,7 @@ class App extends Component {
       <div>
         <div className="pomodoro">
           <div>
-            <button onClick={this.increaseTime}>+</button>
+            <button onClick={this.increaseTime} className="buttontwo">+</button>
           </div>
           <div className="timer">
             {this.breakStarted
@@ -162,7 +162,7 @@ class App extends Component {
               : this.calculateTime(this.state.time)}
           </div>
           <div>
-            <button onClick={this.decreaseTime}>-</button>
+            <button onClick={this.decreaseTime} className="button">-</button>
           </div>
         </div>
         <div>

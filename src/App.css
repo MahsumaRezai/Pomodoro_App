@@ -5,18 +5,28 @@
 .pomodoro {
 	height: 120px;
 	display: flex;
-	background: #FEDC3D;
+	background: #fff;
 	justify-content: center;
 	box-shadow: 1px 1px 1px #888888;
 
 }
+.buttontwo{
+    padding: 5px 10px 5px 10px;
+	margin-top: 90%;
+	border: none;
+	background: green;
+	font-size: 45px;
+	font-family: VT323;
+	font-weight: bold;
+	text-align: center;
+	box-shadow: 3px 3px 2px #888888;
+}
 
-
-.pomodoro button {
+.button {
 	padding: 5px 10px 5px 10px;
 	margin-top: 90%;
 	border: none;
-	background: #01ABAA;
+	background: red;
 	font-size: 45px;
 	font-family: VT323;
 	font-weight: bold;
@@ -50,7 +60,7 @@
 
 .start-pause button {
 	border: none;
-	background: #01ABAA;
+	background: #fff;
 	font-size: 45px;
 	font-family: VT323;
 	font-weight: bold;
@@ -73,7 +83,7 @@
 
 .reset button {
 	border: none;
-	background: #DC5754;
+	background: red;
 	font-size: 45px;
 	font-family: VT323;
 	font-weight: bold;
