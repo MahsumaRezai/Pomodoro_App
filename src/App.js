@@ -8,8 +8,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      time: 1500, // Initial length of time
-      breakTime: 300 // Initial time of break
+      time: 1500, 
+      breakTime: 300 
     };
     this.breakTime = 300;
     this.pomodoroStarted = false;
@@ -121,7 +121,6 @@ class App extends Component {
       var audio = new Audio('https://cdnjs.cloudflare.com/ajax/libs/ion-sound/3.0.7/sounds/branch_break.mp3');
       audio.play();
       this.stopTimer(this.timer);
-      //After the Pomodoro timer ends, set the time to the stored value set by the user
       this.setState({ time: this.time });
       if (!this.breakStarted) {
         this.startBreak();
@@ -132,7 +131,6 @@ class App extends Component {
     if (this.state.breakTime < 1) {
       this.audio.play();
       this.stopTimer(this.breakTimer);
-      //After the break timer ends, set the time to the stored value set by the user
       this.setState({ breakTime: this.breakTime });
       this.pomodoroStarted = false;
       this.breakStarted = false;
